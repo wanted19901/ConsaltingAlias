@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: black;
+}
+
+.row {
+
+    color: #333333;
+    border-radius: 3px;
+}
+
+body {
+
+    background: url("img/doma.png") no-repeat;
+    height: 720px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    width: auto;
+    position: relative;
+}
+
+#icon_nav {
+    padding-top: 330px;
+    color: #080808;
+}
+
+#main_log {
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 75px;
+    background: none;
+    font-style: normal;
+
+}
+
+#indastrial {
+    height: 150px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+#text {
+    text-align: center;
+    padding-top: 400px;
+}
+
+.col-md-12 {
+    background: url("img/footer.png") no-repeat;
+    text-align: center;
+
+}
+
+hr {
+    width: 80px;
+    background-color: black; /* Цвет линии */
+    height: 2px; /* Толщина линии */
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.bottom {
+    background: url("img/footer_niz.png");
+    height: 97px;
+    width: auto;
+
+}
+
+ul.nav a {
+    color: white;
+
+}
+
+ul.social a {
+    color: white;
+}
+
+ul.social li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+
+}
+
+ul.nav.nav-pills {
+
+    border-radius: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15px;
+    margin: auto;
+
+}
+
+#pre {
+    background: none;
+    text-align: center;
+}
+
+.div.nav.bottom p {
+    font-style: normal;
+    color: white;
+}
+
+#map {
+    padding-left: 0px;
+    width: 750px;
+}
+
+div.container-fluid {
+    text-align: center;
+    padding-left: 100px;
+}
+
+footer.col-md-12 {
+
+}

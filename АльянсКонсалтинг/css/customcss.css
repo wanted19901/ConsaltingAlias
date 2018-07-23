@@ -1,0 +1,304 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: black;
+}
+
+.header-top {
+    background: url("../src/img/doma.png");
+    background-repeat: none;
+}
+
+.row {
+
+    color: #333333;
+    border-radius: 3px;
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    width: auto;
+    position:;
+}
+
+#icon_nav {
+    padding-top: 330px;
+    color: #080808;
+}
+
+#main_log {
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 75px;
+    background: none;
+    font-style: normal;
+
+}
+
+#industrial {
+    height: 150px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+#text {
+    text-align: center;
+    padding-top: 400px;
+}
+
+hr {
+    width: 69px;
+    background-color: black; /* Цвет линии */
+    height: 2px; /* Толщина линии */
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.bottom {
+    background: url("../src/img/footer_niz.png");
+    height: 97px;
+    width: auto;
+    MARGIN-left: -15px;
+    margin-right: -15px;
+}
+
+ul.nav a {
+    color: white;
+
+}
+
+ul.social a {
+    color: white;
+}
+
+ul.social li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+
+}
+
+ul.nav.nav-pills {
+
+    border-radius: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15px;
+    margin: auto;
+
+}
+
+#pre {
+    padding-top: 150px;
+    background: none;
+    text-align: center;
+}
+
+.div.nav.bottom p {
+    font-style: normal;
+    color: white;
+
+}
+
+#map {
+
+    width: 750px;
+}
+
+div.container-fluid {
+    text-align: center;
+    padding-left: 100px;
+}
+
+.map-wrap {
+    height: 630px;
+    padding-top: 70px;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#responsive-menu li:hover a, #responsive-menu li.dropdown.open a {
+    color: #a69f89;
+}
+
+.nav li {
+    width: 155px;
+}
+
+.carousel {
+    margin-top: 300px;
+    padding-top: 200px;
+
+}
+
+.partner1 {
+    text-align: center;
+
+}
+
+.container #industrial .col-md-2 a {
+    text-align: center;
+
+}
+
+.partner_inner {
+
+    text-align: center;
+}
+
+.ramka {
+    position: relative;
+}
+
+.carousel-inner {
+    display: inline-block;
+    align-items: center;
+}
+
+.container-2 {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-2 input#search {
+    width: 50px;
+    height: 30px;
+    background: inherit;
+    border: none;
+    font-size: 16pt;
+    float: left;
+    color: #93a2ad;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+}
+
+.container-2 .icon {
+    position: absolute;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: 6px;
+    z-index: 1;
+    color: white;
+
+}
+
+.container-2 input#search:focus, .container-2 input#search:active {
+    outline: none;
+    width: 300px;
+}
+
+.container-2:hover input#search {
+    width: 300px;
+}
+
+.container-2:hover .icon {
+    color: white;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+    color: white;
+}
+
+.container-2 input#search:-moz-placeholder { /* Firefox 18- */
+    color: white;
+}
+
+.container-2 input#search::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+}
+
+.container-2 input#search:-ms-input-placeholder {
+    color: white;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-radius: 0;
+    border: none;
+    background-color: none;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    opacity: .5;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    left: auto;
+    right: 0;
+    background-image: none;
+}
+
+.carousel-control {
+    padding-top: 10.25%;
+    width: 5%;
+}
+.navbar-toggle{
+background-color: #66afe9;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: red;
+}
+.navbar-default .navbar-toggle {
+    border-color: red;
+    border-radius: 3px;
+}
